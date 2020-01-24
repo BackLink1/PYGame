@@ -1,3 +1,8 @@
 #inlude<iostream>
 
-int main(){}
+using namespace std:
+
+int main(){
+	cout <<"hello git"<endl;
+
+}	
