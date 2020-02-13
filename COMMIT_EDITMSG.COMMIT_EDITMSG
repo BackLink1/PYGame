@@ -1,0 +1,34 @@
+code
+
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/doodle b/doodle
+new file mode 160000
+index 0000000..c85b419
+--- /dev/null
++++ b/doodle
+@@ -0,0 +1 @@
++Subproject commit c85b4196ec231a98d4af63516a67856de06ed189
+diff --git a/source.py b/source.py
+new file mode 100644
+index 0000000..f87386e
+--- /dev/null
++++ b/source.py
+@@ -0,0 +1,14 @@
++class SpecialString:
++  def __init__(self, cont):
++    self.cont = cont
++
++  def __gt__(self, other):
++    	print(str(index) + '  '+ other.cont[:index])
++    for index in range(len(other.cont)+1):1git
++    	result = other.cont[:index] + ">" + self.cont
++    	result += ">" + other.cont[index:]
++    print(result)
++
++spam = SpecialString("fdsfdsfds")
++eggs = SpecialString("eggs")
++eggs > spam
